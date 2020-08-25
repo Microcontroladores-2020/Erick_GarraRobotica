@@ -1,6 +1,6 @@
 # Projeto microcontroladores VF2020
 
-# INCLUIR FOTO nucleo pinout
+![DevBoard pinout](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/STM32-Nucleo-F401RE-Pinout.png?raw=true)
 
 
 ## Motivação
@@ -51,7 +51,7 @@ CH polarity: HIGH
 
 Usado no modo alternate function ao habilitar AF2 do registrador AFRL. Isso por sua vez, permite que haja saída para o PWM configurado no periférico TIM4.
 
-# adicionar Figura AFR 
+![AFR Multiplexer](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/AF_multiplexador.png?raw=true)
 
 ### GPIOC
 
