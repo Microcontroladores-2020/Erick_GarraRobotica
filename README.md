@@ -17,7 +17,7 @@ A medida que o objeto se aproxima, a garra se fecha em formato de pinça.
 
 ## Funcionamento e descrição dos periféricos
 
-Foram necessários 4 periféricos para o projeto final: TIM2, GPIOC e TIM4. Além disso, durante o desenvolvimento, foi usado USART2.
+Foram necessários 4 periféricos para o projeto final: TIM2, GPIOB, GPIOC e TIM4. Além disso, durante o desenvolvimento, foi usado USART2.
 
 O clock interno utlizado nos reset values do microcontrolador é de 16 MHz e pode ser usado a até 84 Mhz. No nosso caso, o clock de 16 Mhz foi mantido. 
 
@@ -27,11 +27,11 @@ Foi usado para criar uma função de delay para ser aplicada ao código uma vez 
 
 #### Configurações iniciais:
 
-Prescaler: 16-1
-ARR: 0 (habilitado durante o código)
-Counter mode: UP (Crescente)
-Trigger event: UG bit
-Load value: 0
+- Prescaler: 16-1
+- ARR: 0 (habilitado durante o código)
+- Counter mode: UP (Crescente)
+- Trigger event: UG bit
+- Load value: 0
 
 ### TIM4
 
@@ -39,13 +39,13 @@ Foi usado para gerar saída PWM para o controle do atuador. O mesmo está locali
 
 #### Configurações iniciais:
 
-Output mode: PWM generation
-Prescaler: 3200-1
-ARR: 100-1
-Counter mode: UP (Crescente)
-Trigger event: UG bit
-Load value: 0
-CH polarity: HIGH
+- Output mode: PWM generation
+- Prescaler: 3200-1
+- ARR: 100-1
+- Counter mode: UP (Crescente)
+- Trigger event: UG bit
+- Load value: 0
+- CH polarity: HIGH
 
 ### GPIOB
 
@@ -80,12 +80,12 @@ Obs: é conveniente usar comunicação serial UART para debugar e acompanhar os 
 
 #### Configurações iniciais:
 
-Modo de comunicação: Assíncrona 
-baud rate: 115200 bits/s
-Tamanho da mensagem: 8 bits
-Paridade: sem paridade
-Stop bits: 1
-Data direction: Full-duplex (transmitir e receber)
+- Modo de comunicação: Assíncrona 
+- baud rate: 115200 bits/s
+- Tamanho da mensagem: 8 bits
+- Paridade: sem paridade
+- Stop bits: 1
+- Data direction: Full-duplex (transmitir e receber)
 
 ## Diagrama de Blocos
 
