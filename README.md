@@ -6,7 +6,7 @@
 ## Motivação
 
 A motivação do projeto é fazer um protótipo de garra robótica autônoma, que será bastante simplificado devido ao pouco tempo e disposição de recursos.
-Além disso, uma proposta do projeto é tornar o código mais eficiente possível em termos de processamento dentro do que foi aprendido na disciplina até o momento. Com isso, as únicas bibliotecas necessárias para o projeto será a biblioteca da CMSIS "stm32f4xx.h" e as próprias start up files referentes ao microcontrolador que poderão ser baixados neste repositório.
+Além disso, uma proposta do projeto é tornar o código mais eficiente possível em termos de processamento dentro do que foi aprendido na disciplina até o momento. Com isso, as únicas bibliotecas necessárias para o projeto será a biblioteca da CMSIS "stm32f4xx.h" e as próprias start up files referentes ao microcontrolador que poderão ser baixados neste repositório. Ou seja, sem usar a biblioteca HAL.
 
 ## Descrição do conceito
 
@@ -91,7 +91,7 @@ Obs: é conveniente usar comunicação serial UART para debugar e acompanhar os 
 
 
 
-## Pin-out table
+## Pinout table
 
 
 

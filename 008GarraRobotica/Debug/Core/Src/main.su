@@ -1,0 +1,5 @@
+main.c:21:5:main	24	static
+main.c:80:6:usdelay	16	static
+main.c:93:6:init_gpio	4	static
+main.c:106:6:init_pwm	4	static
+main.c:133:6:test_motor	16	static
