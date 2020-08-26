@@ -1,7 +1,6 @@
 # Projeto microcontroladores VF2020
 
-
-
+![nucleo_board](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/nucleo_board.jpg?raw=true)
 
 ## Motivação
 
@@ -15,9 +14,13 @@ Para isso, será usado um servo motor como atuador do sistema, um sensor ultrass
 O sensor de ultrassom será ativado e lido pelo microcontrolador a cada ciclo do programa. Com ele, é possível ter uma noção da distância da garra robótica para um obstáculo ou objeto a ser manipulado.
 A medida que o objeto se aproxima, a garra se fecha em formato de pinça.
 
+
+
 Há dois vídeos do funcionamento do protótipo na pasta vídeos do repositório.
 
-# adicionar link dos videos
+[Garra pegando objeto](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Videos/pegando_objeto.mp4)
+
+[Teste do sensor perpendicular a superfície plana](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Videos/teste_sensor.mp4)
 
 ## Funcionamento e descrição dos periféricos
 
@@ -88,6 +91,7 @@ Obs: é conveniente usar comunicação serial UART para debugar e acompanhar os 
 
 ## Diagrama de Blocos
 
+![DiagramadeBlocos](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/diagramadeBlocos.png?raw=true)
 
 ## Pinout table
 
@@ -101,7 +105,7 @@ Obs: é conveniente usar comunicação serial UART para debugar e acompanhar os 
 
 ## Fluxograma do firmware
 
-
+![fluxograma_firmware](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/fluxograma_firmware.png?raw=true)
 
 ## Melhorias futuras
 
