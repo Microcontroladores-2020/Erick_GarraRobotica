@@ -14,11 +14,25 @@ Para isso, será usado um servo motor como atuador do sistema, um sensor ultrass
 O sensor de ultrassom será ativado e lido pelo microcontrolador a cada ciclo do programa. Com ele, é possível ter uma noção da distância da garra robótica para um obstáculo ou objeto a ser manipulado.
 A medida que o objeto se aproxima, a garra se fecha em formato de pinça.
 
+### Fotos do projeto
 
+#### Foto aérea
+
+![foto_aerea](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/garra_aereo.jpeg?raw=true)
+
+#### Foto perfil
+
+[foto_perfil](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/garra_perfil.jpeg?raw=true)
+
+### Vídeos do projeto
 
 Há dois vídeos do funcionamento do protótipo na pasta vídeos do repositório.
 
+#### Vídeo Garra pegando objeto 
+
 [Garra pegando objeto](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Videos/pegando_objeto.mp4)
+
+#### Vídeo Teste do sensor perpendicular a superfície plana
 
 [Teste do sensor perpendicular a superfície plana](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Videos/teste_sensor.mp4)
 
