@@ -22,7 +22,7 @@ A medida que o objeto se aproxima, a garra se fecha em formato de pinça.
 
 #### Foto perfil
 
-[foto_perfil](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/garra_perfil.jpeg?raw=true)
+![foto_perfil](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/garra_perfil.jpeg?raw=true)
 
 ### Vídeos do projeto
 
