@@ -1,12 +1,12 @@
 # Projeto microcontroladores VF2020
 
-![DevBoard pinout](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/STM32-Nucleo-F401RE-Pinout.png?raw=true)
+
 
 
 ## Motivação
 
 A motivação do projeto é fazer um protótipo de garra robótica autônoma, que será bastante simplificado devido ao pouco tempo e disposição de recursos.
-Além disso, uma proposta do projeto é tornar o código mais eficiente possível em termos de processamento dentro do que foi aprendido na disciplina até o momento. Com isso, as únicas bibliotecas necessárias para o projeto será a biblioteca da CMSIS "stm32f4xx.h" e as próprias start up files referentes ao microcontrolador que poderão ser baixados neste repositório. Ou seja, sem usar a biblioteca HAL.
+Além disso, uma proposta do projeto é tornar o código mais eficiente possível em termos de processamento dentro do que foi aprendido na disciplina até o momento. Com isso, as únicas bibliotecas necessárias para o projeto será a biblioteca da CMSIS "stm32f4xx.h" e as próprias start up files referentes ao microcontrolador que poderão ser baixados neste repositório. Ou seja, **sem usar a biblioteca HAL**.
 
 ## Descrição do conceito
 
@@ -14,6 +14,10 @@ O projeto será desenvolvido em um STM32F401RE embarcado em uma Nucleo developme
 Para isso, será usado um servo motor como atuador do sistema, um sensor ultrassônico HC-SR04 e a próptia development board Nucleo STM32F401RE.
 O sensor de ultrassom será ativado e lido pelo microcontrolador a cada ciclo do programa. Com ele, é possível ter uma noção da distância da garra robótica para um obstáculo ou objeto a ser manipulado.
 A medida que o objeto se aproxima, a garra se fecha em formato de pinça.
+
+Há dois vídeos do funcionamento do protótipo na pasta vídeos do repositório.
+
+# adicionar link dos videos
 
 ## Funcionamento e descrição dos periféricos
 
@@ -69,11 +73,6 @@ Recebe o sinal vindo do pino ECHO do ultrassom e amostra esse sinal recebido com
 
 Foi configurado como GPIO input
 
-#### userButton
-
-Permite que o usuário entre em uma rotina de testes para o servo motor ao clicar no user button da própria development board.
-
-Foi configurado como GPIO input e interrupt trigger
 
 ### USART2 (não incluído no projeto final)
 Obs: é conveniente usar comunicação serial UART para debugar e acompanhar os valores das variáveis do código durante o desenvolvimento. No caso do microcontrolador utilizado, usa-se o periférico USART2 para a comunicação com o host uma vez que ele tem conexão direta com a entrada USB do debugger.
@@ -90,16 +89,17 @@ Obs: é conveniente usar comunicação serial UART para debugar e acompanhar os 
 ## Diagrama de Blocos
 
 
-
 ## Pinout table
 
+![DevBoard pinout](https://github.com/Microcontroladores-2020/Erick_GarraRobotica/blob/master/Imagens/STM32-Nucleo-F401RE-Pinout.png?raw=true)
 
+|   Porta  | Função |   Destino |
+|   --  |   --  |   --  |
+|   PC0 |   GPIO_C0 |   ECHO    |
+|   PC1 |   GPIO_C1 |   TRIGGER |
+|   PB6 |   TIM4_CH1|   Motor   |
 
 ## Fluxograma do firmware
-
-
-
-## Descrição de variáveis e funções
 
 
 
